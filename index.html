@@ -4,17 +4,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tower Defense</title>
     <script defer src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
-    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #222;
+        }
+        #gameCanvas {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-    
-    <div id="gameCanvas">
-        
-    </div>
-    
-    
-    
+    <div id="gameCanvas"></div>
     <script type="module" src="main.js"></script>
-    
 </body>
 </html>
